@@ -1,0 +1,198 @@
+body {
+  border: 2cap solid;
+  background-color: azure;
+  margin: 30px;
+  padding: 5px;
+}
+#logo{
+ padding-top: 10px;
+  transition: all 0.3 ease-in;
+}
+#logo:hover{
+    transform: scaleY(1.9)
+}
+
+header {
+  background-color:#e3d5ca;
+}
+
+.col-xl-10 a {
+  color: black;
+  font-size: x-large;
+}
+
+/* Header end */
+
+.img-fluid {
+  height: 150px;
+  width: 220px;
+}
+
+#container {
+  margin: 60px;
+}
+
+.nav-item {
+  border: 1px solid;
+  word-spacing: 500px;
+  padding: 8px;
+  margin: 10px;
+}
+
+.container ul {
+  margin-left: 20px;
+}
+
+.tab-content {
+  border: 1px solid;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+}
+.nav-item {
+  transition: all 0.3s ease;
+}
+
+.nav-item :hover {
+  transform: scale(1.1);
+  background-color: rgb(14, 112, 178);
+  color: white;
+}
+
+/* Education End */
+
+.about {
+  border: 1px solid;
+  border-radius: 15px;
+  margin: 50px;
+}
+
+.p1 {
+  text-align: center !important;
+  padding-top: 10%;
+  padding-right: 10px;
+  font-size: large;
+}
+
+/* Info end */
+col-xl-3 img {
+  border-radius: 50%;
+}
+
+#carouselExampleAutoplaying {
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 50px;
+}
+
+#carouselExampleAutoplaying img {
+  height: 150px;
+  width: 100px;
+}
+
+/* Skillset end */
+
+.col-xl-4{
+  border: 1px solid;
+  border-radius: 20px;
+ 
+}
+#c1{
+  border: 1px solid;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+#c1:hover{
+  transform: scale(1.1);
+  background-color: rgb(240, 239, 229);
+}
+
+.con1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+  height: 200px;
+}
+
+.btn-outline-info {
+  transition: all 0.3s ease;
+}
+
+.btn-outline-info:hover {
+  transform: scale(1.1);
+  background-color: #17a2b8;
+  color: white;
+}
+.download{
+  margin: 90px; 
+  height: 80px; 
+  width: 180px;
+}
+
+/* contact end */
+
+footer {
+  margin: 20px;
+  border: solid;
+  height: 80px;
+  width: auto;
+  border-radius: 20px;
+  background-color: #e3d5ca;
+}
+
+.row1 {
+  padding-top: 10px;
+}
+
+/* footer end */
+.socialcontainer {
+  padding-left: 150px;
+  display: flex;
+  gap: 10px;
+}
+.socialcontainer h5 {
+  margin-left: 450px;
+}
+
+.socialcontainer a img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s;
+}
+
+.socialcontainer a img:hover {
+  transform: scale(1.4);
+}
+
+/* social media end  */
+
+
+
+/* Mobile view */
+@media only screen and (max-width: 567px) {
+  .logo {
+    text-align: center;
+    padding: 20px 0;
+  }
+  .top-menu {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .socialcontainer h5 {
+    margin-left: 25px;
+  }
+  .download{
+  margin: 0px; 
+}
+
+} 
+
+
+/* Desktop view */
